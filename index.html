@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1 class="page-header">DOM Handson</h1>
+    <p>Q1. Write the code to access element which is having id as "text".</p>
+    <div id="text">=> This is accessed using ID</div>
+    <hr />
+    <p>Q2. Write the code to access element which is having tag as "h1".</p>
+    <h1 class="accessHead">=> This is accessed using H1</h1>
+    <hr />
+    <p>Q3. Write the code to access element which is having class as "box".</p>
+    <div class="box">=> This is accessed using class as "box"</div>
+    <hr />
+    <p>
+      Q4. &lth1&gt Hello &lt/h1&gt
+      <br /><br />
+      Change the heading from "Hello" to "Hello World" using DOM functions.
+    </p>
+    =>
+    <h2 class="changeText">Hello</h2>
+    <hr />
+    <p>
+      Q5. Create an HTML page having content as Hello world and a button named
+      Replace Text. When user will click on this button page content should be
+      changed to "Welcome to Elevation academy"
+    </p>
+    =>
+    <h1 class="changeLine">Hello World</h1>
+    <button onClick="replaceText()">Replace Text</button>
+    <br />
+    <hr />
+    <p>
+      Q6.&lth1&gt Hello &lt/h1&gt
+      <br /><br />
+      Add one style attribute and give text color as red and id attribute and
+      give the id value as "heading" in the above given h1 tag using DOM
+      functions.
+    </p>
+    =>
+    <h1 id="heading">Hello</h1>
+
+    <hr />
+    <p>
+      Q7. Create three cards on HTML page and arrange them using flex property
+      in row or horizontal direction and also create button at the bottom named
+      "Change Flex direction". When user clicks on this button, the cards
+      arrangement should be changed to vertical direction.
+    </p>
+    =>
+    <div class="boxes">
+      <div class="boxs"></div>
+      <div class="boxs"></div>
+      <div class="boxs"></div>
+    </div>
+    <br />
+    <button onClick="changeDirection()">Change Flex Direction</button>
+    <hr />
+    <p>Q7. What's the difference between window vs document?</p>
+    =>
+    <table border="2" width="100%">
+      <tr>
+        <th>Window</th>
+        <th>Document</th>
+      </tr>
+      <tr>
+        <td>
+          1. It is loaded before the document because of the window container
+          document.
+        </td>
+        <td>
+          1. It is loaded after the loading window because the window contains a
+          document.
+        </td>
+      </tr>
+      <tr>
+        <td>
+          2. It represents the browser window in which you are seeing the
+          content.
+        </td>
+        <td>
+          2. It represents the document loaded inside the window or browser.
+        </td>
+      </tr>
+      <tr>
+        <td>
+          3. The window object represents a window/tab containing a DOM document
+        </td>
+        <td>
+          3. document object is property of window object that points to the DOM
+          document loaded in that window.
+        </td>
+      </tr>
+      <tr>
+        <td>
+          4. The window is the global element for all objects, functions, etc.
+        </td>
+        <td>4. It is the root element of document object model.</td>
+      </tr>
+      <tr>
+        <td>5. We can access document object properties inside the window.</td>
+        <td>
+          5. We cannot access windows object properties inside the document.
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Example:
+          <pre>
+            window:{
+              document:{properties}
+            }
+          </pre>
+        </td>
+        <td>
+          Example:
+          <pre>
+            
+              document:{properties}
+            
+          </pre>
+        </td>
+      </tr>
+    </table>
+    <hr />
+    <p>
+      Q9. Write code to implement timer clock using JS -- display HH:MM:SS --
+      the time should keep updating every second.
+    </p>
+    =>
+
+    <h1>Clock</h1>
+    <h2></h2>
+    <hr />
+    <p>Q10. Guess The Number Game.</p>
+    <a href="./GuessGame.html">=> Link to Guess The Number Game</a>
+    <br />
+    <br />
+    <script src="./script.js"></script>
+  </body>
+</html>

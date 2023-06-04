@@ -1,0 +1,80 @@
+body {
+  background-color: #2f7c8e;
+  margin-top: 0;
+}
+h1 {
+  font-size: 40px;
+  color: white;
+}
+h2 {
+  color: white;
+}
+
+p {
+  font-size: 20px;
+  color: white;
+}
+input {
+  background: none;
+  /* font-size: 50px; */
+  font-family: inherit;
+  border: 5px solid white;
+  font-size: 4rem;
+  padding: 1rem;
+  text-align: center;
+  color: white;
+  width: 20rem;
+}
+button {
+  width: max-content;
+  height: max-content;
+  padding: 20px 30px;
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+  border: none;
+}
+button:hover {
+  cursor: pointer;
+  box-shadow: 0px 0px 15px lightgray;
+}
+.displayNumber {
+  height: 50px;
+  width: 50px;
+  font-size: 50px;
+  padding: 30px;
+  margin: 0;
+  background-color: white;
+  display: inline-block;
+  color: black;
+  text-align: center;
+}
+.guessText {
+  font-size: 50px;
+  margin: 0;
+}
+.numberRandom {
+  margin: 80px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10px;
+  background-color: white;
+}
+.numberContent {
+  margin: 6rem;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.numberUser {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.page-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.infoHead {
+  text-align: center;
+}
